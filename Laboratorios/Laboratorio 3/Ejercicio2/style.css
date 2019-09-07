@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body {
+    background-image: url(img/fondo.png);
+    background-repeat: repeat-x;
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+button{
+    border:2px solid black;
+    margin: 5px;
+    box-shadow: 10px chocolate;
+    box-sizing: border-box;
+    font-size: 50px;
+    border-radius: 20%;
+    background-color: aqua
+
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 40%;               
+    background-color:white;
+    height: 10px;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+div{
+    margin: 20px;
+    
+}
+img{
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.iconos1 >img{
+    background-color: lightgray;
+    border-radius: 50%;
+    object-position: center;
+    opacity: 0.9;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+.OpenSource{
+    background-color: green;
+    
+}
+.Download{
+    background-color: lightgreen;
+}
+.FAQ {
+    background-color: greenyellow;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    justify-items: last baseline;
+}
+
