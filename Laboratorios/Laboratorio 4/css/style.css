@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+body {
+  background-image: url(../img/fondo.png);
+  background-repeat: repeat-x;
+  background-color: black;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
