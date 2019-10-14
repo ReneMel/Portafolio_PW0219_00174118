@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+.menu a {
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+.profile {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+header{
+    margin-bottom: 10px;
+}
+.aboutme {
+    text-align: center;
+    color: white;
+}
+
+
+.menu {
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu li {
+    padding: 0.5em;
+    margin-top: 5px;
+    color: white;
+    
+}
+ 
+div{
+    color :white;
+}
+p, h1,h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Entradas article{
+    margin: 50px;
+    text-align: center;
+    background-image: url("img/pfbackgr.jpg");
+}
+.Entradas p {
+    margin: 20px;
+}
+
+
+article img {
+    width: 50vh;
+    height: 194px;
+    border-radius: 150px;
+}
+
+.Entradas .data{
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+}
+.btn-space {
+    display: flex;
+    justify-content: space-between;
+}
