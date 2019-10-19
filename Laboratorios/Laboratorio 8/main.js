@@ -85,9 +85,9 @@ Función para parsear el valor booleano del late_switch
 
 let parseLateSwitch= (value)=>{
 if(value){
-return "Tardisimo"
+return "送れたんだ!"
 }
-return "A tiempo"
+return "時間だ！!"
 }
 
 /*
